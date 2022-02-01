@@ -1,0 +1,147 @@
+* {box-sizing: border-box;}
+
+.body 
+
+/*---------------UNDERSCROLL--------------->*/
+.underScroll {
+    display: flex;
+    height: 100%;
+}
+
+.navigationBar {
+    border: rgba(0, 0, 0, 0.8) solid 5px;
+    background-color: rgb(50,50,50);
+    color: white;
+    height: 10vh;
+    width: 100%;
+    border-bottom: rgba(0, 0, 0, 0.24) solid 5px;
+}
+
+.LRBoxes {
+    border: rgb(230, 142, 10) solid 5px;
+    display: flex;
+    height: 100%;
+}
+
+.leftBox {
+    border: rgb(120, 223, 18) solid 5px;
+    background-color: rgb(50,50,50);
+    color: white;
+    order: 1;
+    width: 40%
+}
+
+.rightBox {
+    border: rgb(18, 208, 233) solid 5px;
+    background-color: rgb(255, 255, 255);
+
+    order: 2;
+    width: 60%
+}
+
+/*---------------OVERSCROLL--------------->*/
+.overScroll {
+    display: flex;
+    border: rgb(233, 18, 18) solid 5px;
+    background-color: white;
+    width: 100%;
+}
+.rightText {
+    display: flex;
+    width 40%
+    align-items:stretch;    
+}
+
+.row0 {
+    justify-content: center;
+    width: 100%;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+.row2 {
+    display: flex;
+ 
+}
+.row3 {
+    display: flex;
+
+}
+.row4 {
+    display: flex;
+
+}
+.row5 {
+    display: flex;
+
+    justify-content: center;
+    width: 100%;
+}
+
+/*---------------FOOTER--------------->*/
+
+footer {
+    border: rgb(95, 167, 250) solid 5px;
+    display: flex;
+    background-color: rgb(50,50,50);
+
+
+}
+    .foot1 {
+        border: rgb(13, 119, 18) solid 5px;
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(50,50,50);
+        color: white;
+    }
+
+        .homeLink {
+            border: rgb(178, 179, 235) solid 3px;
+            width: 20%;
+
+        }
+
+        .infoLinks {
+            border: rgb(70, 62, 180) solid 3px;
+            width: 60%;
+
+        }
+
+        .socialLinks {
+            border: rgb(7, 0, 100) solid 3px;
+            width: 20%;
+
+
+        }
+
+    .foot2 {
+            display: flex;
+            border: rgb(212, 24, 165) solid 5px;
+            background-color: rgb(50,50,50);
+            color: white;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .donationLinks {
+            border: rgb(151, 5, 54) solid 5px;
+            display: flex;
+
+            flex-direction: row;
+            width: 100%;
+            justify-content: center;
+
+    }
+
+    .foot3 {
+        display: flex;
+        border: rgb(137, 24, 212) solid 5px;
+        justify-content: center;
+        background-color: rgb(50, 50, 50);
+        color: white;
+
+
+
+    }
